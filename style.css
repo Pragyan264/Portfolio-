@@ -107,3 +107,67 @@ body {
     font-size: 0.85rem;
     border-radius: 4px;
 }
+
+.about-section {
+    padding: 80px 8%;
+    background: #ffffff;
+    /* Contrast white block against the cream page */
+    border-bottom: 1px solid #e6e4de;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.about-left {
+    flex: 1.5;
+    min-width: 300px;
+}
+
+.about-left h2 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    letter-spacing: -0.5px;
+}
+
+.about-text {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: #4a4a4a;
+    margin-bottom: 15px;
+}
+
+.about-right {
+    flex: 1;
+    min-width: 280px;
+    background: #f7f6f2;
+    /* Subtle cream box for skills matrix */
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.about-right h3 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    color: #1a1a1a;
+}
+
+.skills-list {
+    list-style: none;
+}
+
+.skills-list li {
+    font-size: 0.95rem;
+    margin-bottom: 12px;
+    color: #4a4a4a;
+    border-bottom: 1px solid #e6e4de;
+    padding-bottom: 8px;
+}
+
+.skills-list li strong {
+    color: #4a6b5d;
+    /* Accent teal */
+}
