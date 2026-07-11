@@ -81,23 +81,3 @@ body {
     box-sizing: border-box;
     border: radius 15px;
 }
-
-.Project {
-    display: flex;
-    align-items: center;
-    min-height: 75vh;
-    justify-content: space-between;
-    padding: 0 8%;
-    gap: 60px;
-}
-
-.table {
-    width: 200px;
-    height: 200px;
-
-}
-
-.img-proj {
-    width: 200px;
-    height: 200px;
-}
