@@ -111,7 +111,7 @@ body {
 .about-section {
     padding: 80px 8%;
     background: #ffffff;
-  
+
     border-bottom: 1px solid #e6e4de;
 }
 
@@ -144,7 +144,7 @@ body {
     flex: 1;
     min-width: 280px;
     background: #f7f6f2;
-    
+
     padding: 30px;
     border-radius: 8px;
 }
@@ -169,7 +169,7 @@ body {
 
 .skills-list li strong {
     color: #4a6b5d;
-   
+
 }
 
 
@@ -177,7 +177,7 @@ body {
 .project-section {
     padding: 80px 8%;
     background: #f7f6f2;
-  
+
 }
 
 .project-section h2 {
@@ -361,7 +361,7 @@ body {
 }
 
 .direct-mail a {
-    color: #4a6b5d; 
+    color: #4a6b5d;
     text-decoration: none;
     font-weight: 600;
     margin-left: 5px;
@@ -382,7 +382,7 @@ body {
 
 
 .channel-box {
-    background: #f7f6f2; 
+    background: #f7f6f2;
     padding: 25px;
     border-radius: 8px;
     border: 1px solid #e6e4de;
@@ -432,4 +432,14 @@ body {
 .channel-link-btn.highlight:hover {
     background: #3b5449;
     border-color: #3b5449;
+}
+
+footer {
+    text-align: center;
+    padding: 30px 8%;
+    background: #ffffff;
+    color: #666666;
+    font-size: 0.85rem;
+    font-weight: 500;
+    border-top: 1px solid #e6e4de;
 }
